@@ -383,3 +383,6 @@ Command: iwconfig
 Request: exit
 Command: exit
 
+Request: port scan d8rh8r.lovestoblog.com
+Command: nmap d8rh8r.lovestoblog.com
+
