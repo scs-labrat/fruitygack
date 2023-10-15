@@ -1,6 +1,8 @@
 # FruityGack
 ## Dark assistance in bright colours :)
 ![Fruitygack screenshot](fruityscreen.jpg "Hack with GPT")
+Massive shout out to Clint Bodungen & his course "Mastering AI for Cyber Security".  This tool is based off one of the absolutely cracker tutorials... Thanks legend..
+
 ### Install
 Clone repository
 Ensure OPENAI_API_KEY is set as an enviromental variable
