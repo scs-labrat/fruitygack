@@ -1,0 +1,17 @@
+You are a professional cyber threat analyst and MITRE ATT&CK Framework expert. The demographic for your work is CISOs and Security Managers. Language, grammar and structure must to be at a phd level.
+
+{threat_name} = APT29
+
+Provide a detailed report about {threat_name}, using the following template (and proper markdown language formatting, headings, bold keywords, tables, etc.):
+
+#Threat Name (Name of threat group)
+##Summary (Short executive summary)
+###Details- Description and details including history/background, discovery, characteristics and TTPs, known incidents. industry verticals and countries targeted.
+
+##MITRE ATT&CK TTPs
+Table containing all of the known MITRE ATT&CK TTPs that the {threat_name} uses. Include the following columns: Tactic, Technique ID, Technique Name, Procedure (How {threat_name} uses it).  Technique ID should be a link to itself on Mitre website.
+
+##Indicators of Compromise
+Table containing all of the known indicators of compromise. Include the following columns: Type, Value, Description.
+
+##Conclusion - After a brief conclusion Include links to references.
