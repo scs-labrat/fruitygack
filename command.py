@@ -22,7 +22,7 @@ def append_file(filepath, content): #Create a new file or append an existing one
         outfile.write(content)
 
 #openai.api_key = os.getenv("OPENAI_API_KEY")        
-openai.api_key = open_file('openai-key.txt') #Grabs your OpenAI key from a file
+openai.api_key = "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" #Grabs your OpenAI key from a file
         
 def gpt_3(prompt): #Sets up and runs the request to the OpenAI API
     try:

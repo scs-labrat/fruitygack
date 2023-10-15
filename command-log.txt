@@ -311,3 +311,6 @@ Command: ping -c 1 8.8.8.8
 Request: add a new user call Link
 Command: useradd Link
 
+Request: whats my ip?
+Command: ifconfig
+
