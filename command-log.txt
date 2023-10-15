@@ -314,3 +314,72 @@ Command: useradd Link
 Request: whats my ip?
 Command: ifconfig
 
+Request: whats my ip?
+Command: ifconfig
+
+Request: how much hard disk space do i have?
+Command: df -h
+
+Request: use nmap to scan d8rh8r.lovestoblog.com
+Command: nmap d8rh8r.lovestoblog.com
+
+Request: who am i?
+Command: whoami
+
+Request: run netdiscover against my local network
+Command: netdiscover -r 192.168.0.0/24
+
+Request: nmap scan d8rh8r.lovestoblog.com for open ports and services with no ping
+Command: nmap -Pn -sV d8rh8r.lovestoblog.com
+
+Request: scan ports 111 & 2049 & 19 for vulnerabilities
+Command: nmap -p 111,2049,19 -sV
+
+Request: whats my ip
+Command: ifconfig
+
+Request: whats my ip?
+Command: ip addr show
+
+Request: port scan d8rh8r.lovestoblog.com
+Command: nmap -Pn d8rh8r.lovestoblog.com
+
+Request: get whois information on cracked.io
+Command: whois cracked.io
+
+Request: dig cracked.io
+Command: dig cracked.io
+
+Request: what is the ip range for palestine?
+Command: whois -h whois.ripe.net '-i origin AS29259' | grep -Eo '([0-9.]+){4}/[0-9]+'
+
+Request: what is palestines IP range
+Command: whois palestine | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}'
+
+Request: use masscan to scan the IPs ranges in the file palestine.txt for open port 21, 22 and 3389
+Command: masscan -iL palestine.txt -p21,22,3389
+
+Request: with sudo run masscan with the paused.conf file
+Command: sudo masscan --conf paused.conf
+
+Request: with sudo run masscan against the ips in palestine.txt searching for open ports 21, 22 and 3389
+Command: sudo masscan -p21,22,3389 --source-file palestine.txt
+
+Request: with sudo run masscan against the ips in palestine.txt search
+Command: sudo masscan -iL palestine.txt
+
+Request: what is my ip address?
+Command: ifconfig
+
+Request: run an nmap scan against my local network
+Command: nmap -sn 192.168.0.0/24
+
+Request: run netdiscover with sudo against 192.168.1.0/24
+Command: sudo netdiscover -r 192.168.1.0/24
+
+Request: show me info about my wifi connection
+Command: iwconfig
+
+Request: exit
+Command: exit
+
